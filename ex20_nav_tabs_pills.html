@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" >
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <title>Navigation Bar Example</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <h2>Navigation Tabs and Pills Demo</h2>
+      <p>Langugaes:</p>
+      <ul class="nav justify-content-end">
+        <li class="nav-item"><a class="nav-link" href="#">Telugu</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">English</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Hindi</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Spanish</a></li>
+      </ul>
+
+      <p>Subjects:</p>
+      <ul class="nav flex-column">
+        <li class="nav-item"><a class="nav-link" href="#">Web Development</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Fundamentals of Data Sciences</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Discrete Mathematics and Applications</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Artificial Intelligence</a></li>
+      </ul>
+
+      <p>Courses:</p>
+      <ul class="nav nav-tabs nav-justified">
+        <li class="nav-item"><a class="nav-link active" href="#">MCA</a></li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropwon-toggle" data-toggle="dropdown" href="#">Languages</a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="#">Telugu</a>
+            <a class="dropdown-item" href="#">English</a>
+            <a class="dropdown-item" href="#">Hindi</a>
+            <a class="dropdown-item" href="#">Spanish</a>
+          </div>
+        </li>
+        <li class="nav-item"><a class="nav-link" href="#">MBA</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">B.Tech</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">M.Tech</a></li>
+        
+      </ul>
+
+      <p>Semesters:</p>
+      <ul class="nav nav-pills nav-justified">
+        <li class="nav-item"><a class="nav-link active" href="#">I Semester</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">II Semester</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">III Semester</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">IV Semester</a></li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropwon-toggle" data-toggle="dropdown" href="#">Languages</a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="#">Telugu</a>
+            <a class="dropdown-item" href="#">English</a>
+            <a class="dropdown-item" href="#">Hindi</a>
+            <a class="dropdown-item" href="#">Spanish</a>
+          </div>
+        </li>
+      </ul>
+
+    </br><p>Dropdown Links</p>
+      <ul class="nav">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropwon-toggle" data-toggle="dropdown" href="#">Languages</a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="#">Telugu</a>
+            <a class="dropdown-item" href="#">English</a>
+            <a class="dropdown-item" href="#">Hindi</a>
+            <a class="dropdown-item" href="#">Spanish</a>
+          </div>
+        </li>        
+      </ul>
+
+    </br><p>Toggle Tabs:</p>
+      <ul class="nav nav-tabs">
+        <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#telugu">Telugu</a></li>
+        <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#english">English</a></li>
+        <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#hindi">Hindi</a></li>
+        <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#spanish">Spanish</a></li>
+      </ul>
+      <div class="tab-content">
+        <div id="telugu" class="container tab-pane active">
+          <h3>Telugu</h3>
+          <p>Demo....</p>
+        </div>
+        <div id="english" class="container tab-pane">
+          <h3>English</h3>
+          <p>Demo....</p>
+        </div>
+        <div id="hindi" class="container tab-pane">
+          <h3>Hindi</h3>
+          <p>Demo....</p>
+        </div>
+        <div id="spanish" class="container tab-pane">
+          <h3>Spanish</h3>
+          <p>Demo....</p>
+        </div>        
+      </div>
+
+    </br><p>Toggle Pills:</p>
+    <ul class="nav nav-pills">
+      <li class="nav-item"><a class="nav-link" data-toggle="pill" href="#ptelugu">Telugu</a></li>
+      <li class="nav-item"><a class="nav-link" data-toggle="pill" href="#penglish">English</a></li>
+      <li class="nav-item"><a class="nav-link" data-toggle="pill" href="#phindi">Hindi</a></li>
+      <li class="nav-item"><a class="nav-link" data-toggle="pill" href="#pspanish">Spanish</a></li>
+    </ul>
+    <div class="tab-content">
+      <div id="ptelugu" class="container tab-pane active">
+        <h3>Telugu</h3>
+        <p>Demo....</p>
+      </div>
+      <div id="penglish" class="container tab-pane">
+        <h3>English</h3>
+        <p>Demo....</p>
+      </div>
+      <div id="phindi" class="container tab-pane">
+        <h3>Hindi</h3>
+        <p>Demo....</p>
+      </div>
+      <div id="pspanish" class="container tab-pane">
+        <h3>Spanish</h3>
+        <p>Demo....</p>
+      </div>        
+    </div>
+
+    </div>         
+  </body>
+</html>
